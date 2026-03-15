@@ -79,7 +79,7 @@ export function Post(props) {
 
 Veja o projeto rodando:
 
-https://leronchi.github.io/fundamentos-reactjs
+https://fundamentos-react-js.vercel.app/
 
 ------------------------------------------------------------------------
 
