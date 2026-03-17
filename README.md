@@ -21,11 +21,12 @@ Novas funcionalidades e melhorias serão adicionadas progressivamente.
 
 ## 🛠️ Tecnologias Utilizadas
 
--   ReactJS
--   Vite
--   JavaScript (ES6+)
--   CSS Modules
--   HTML5
+* ReactJS
+* Vite
+* JavaScript (ES6+)
+* CSS Modules
+* HTML5
+* Phosphor Icons (Ícones)
 
 ------------------------------------------------------------------------
 
@@ -39,38 +40,26 @@ Novas funcionalidades e melhorias serão adicionadas progressivamente.
     ├── components
     │   ├── Header.jsx
     │   ├── Header.module.css
+    │   ├── Post.jsx 
+    │   ├── Post.module.css
     │   ├── Sidebar.jsx
     │   └── Sidebar.module.css
     │
     ├── App.jsx
     ├── App.module.css
     ├── global.css
-    ├── main.jsx
-    └── Post.jsx
+    └── main.jsx
 
 ------------------------------------------------------------------------
 
 ## 📚 Conceitos Praticados
 
--   Componentização
--   Props
+-   Componentização de interfaces complexas (Sidebar, Post)
+-   Uso de Props para passagem de dados
 -   Estruturação de projetos React
--   CSS Modules
+-   Estilização escopada com CSS Modules
 -   Organização de código
--   Layout com Grid
-
-Exemplo de componente utilizado no projeto:
-
-``` jsx
-export function Post(props) {
-  return (
-    <div>
-      <strong>{props.author}</strong>
-      <p>{props.content}</p>
-    </div>
-  )
-}
-```
+-   Layout responsivo com CSS Grid e Flexbox
 
 ------------------------------------------------------------------------
 
